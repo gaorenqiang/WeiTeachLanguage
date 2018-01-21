@@ -1,0 +1,17 @@
+<resources>
+    <!--APP系统通用属性设置 -->
+    <string name="app_name">德语通</string>
+    <string name="warn_info">提示</string>
+    <string name="warn_debug">异常</string>
+    <string name="warn_error">对不起，您访问的功能暂未开通</string>
+    <string name="error_title">访问失败</string>
+    <string name="action_settings">设置</string>
+
+
+    <!--主界面底部工具栏的文本提示 -->
+    <string name="tab_menu_course">课程</string>
+    <string name="tab_menu_community">社区</string>
+    <string name="tab_menu_activity">活动</string>
+    <string name="tab_menu_profile">我的</string>
+
+</resources>

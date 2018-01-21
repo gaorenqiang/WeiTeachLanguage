@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_units_list"
+    android:stretchColumns="0">
+
+    <TableRow
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_middle">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="1111"
+            android:layout_gravity="center"/>
+
+        <Button android:id="@+id/btn_unit_exercise"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="单元练习"
+            android:textColor="@color/black"
+            android:background="@null"
+            android:drawableLeft="@drawable/unit_exercise"
+            android:drawablePadding="@dimen/padding_large"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_middle">
+
+        <Button android:id="@+id/btn_unit_test"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="单元测试"
+            android:textColor="@color/red"
+            android:background="@null"
+            android:drawableLeft="@drawable/unit_test"
+            android:drawablePadding="@dimen/padding_large"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_middle">
+
+        <Button android:id="@+id/btn_words"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="单元练习"
+            android:textColor="@color/yellow"
+            android:background="@null"
+            android:drawableLeft="@drawable/words"
+            android:drawablePadding="@dimen/padding_large"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_middle">
+
+        <Button android:id="@+id/btn_quick_review"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:text="单元练习"
+            android:textColor="@color/black"
+            android:background="@null"
+            android:drawableLeft="@drawable/quick_review"
+            android:drawablePadding="@dimen/padding_large"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin_middle">
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="点击进行跳转"
+            android:background="@color/green"
+            android:layout_column="0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </TableRow>
+
+</TableLayout>

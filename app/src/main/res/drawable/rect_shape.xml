@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置一个黑色边框 -->
+    <stroke android:width="@dimen/width_mini" android:color="@color/gray_border"/>
+
+    <!-- 渐变 -->
+    <gradient
+        android:angle="270"
+        android:endColor="#C0C0C0"
+        android:startColor="#3F51B5"/>
+
+    <!-- 设置透明背景色 -->
+    <!--
+    <solid android:color="@color/gold"/>
+    -->
+
+    <!-- 设置一下边距,让空间大一点 -->
+    <padding
+        android:left="@dimen/padding_slim"
+        android:top="@dimen/padding_slim"
+        android:right="@dimen/padding_slim"
+        android:bottom="@dimen/padding_slim"/>
+
+</shape>

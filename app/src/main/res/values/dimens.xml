@@ -1,0 +1,62 @@
+<resources>
+    <!-- 通用的高度布局尺寸参数 -->
+    <dimen name="height_mini">2dp</dimen>
+    <dimen name="height_slim">5dp</dimen>
+    <dimen name="height_small">10dp</dimen>
+    <dimen name="height_middle">20dp</dimen>
+    <dimen name="height_large">40dp</dimen>
+    <dimen name="height_extra_large">80dp</dimen>
+
+    <!-- 通用的宽度布局尺寸参数 -->
+    <dimen name="width_mini">2dp</dimen>
+    <dimen name="width_slim">5dp</dimen>
+    <dimen name="width_small">10dp</dimen>
+    <dimen name="width_middle">20dp</dimen>
+    <dimen name="width_large">40dp</dimen>
+    <dimen name="width_extra_large">80dp</dimen>
+
+    <!-- 通用的外边距设置 -->
+    <dimen name="margin_mini">1dp</dimen>
+    <dimen name="margin_slim">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_middle">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_extra_large">32dp</dimen>
+
+    <!-- 通用的内边距设置 -->
+    <dimen name="padding_mini">1dp</dimen>
+    <dimen name="padding_slim">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_middle">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">32dp</dimen>
+
+    <!-- 通用的字体大小设置 -->
+    <dimen name="font_mini">12sp</dimen>
+    <dimen name="font_slim">14sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_middle">18sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_extra_large">22dp</dimen>
+
+    <!-- 特殊的几何参数(必须指定组件名) -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 通用的各类形状线框粗细 -->
+    <dimen name="border_mini">1dp</dimen>
+    <dimen name="border_slim">2dp</dimen>
+    <dimen name="border_small">4dp</dimen>
+    <dimen name="border_middle">5dp</dimen>
+    <dimen name="border_large">10dp</dimen>
+    <dimen name="border_extra_large">20dp</dimen>
+
+    <!-- 通用的圆半径大小 -->
+    <dimen name="radius_mini">4dp</dimen>
+    <dimen name="radius_slim">8dp</dimen>
+    <dimen name="radius_small">16dp</dimen>
+    <dimen name="radius_middle">32dp</dimen>
+    <dimen name="radius_large">64dp</dimen>
+    <dimen name="radius_extra_large">128dp</dimen>
+
+</resources>
